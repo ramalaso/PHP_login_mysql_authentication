@@ -15,13 +15,11 @@ class DB {
          $link = new PDO($dsn, $username, $password, $options);
         //  return $link;
             if(is_object($link)){
-                echo "Database connected...";
+                // echo "Database connected...";
                 return $link;
             }
         } catch(PDOException $e) {
             echo "It didnt work, error: ". $e->getMessage(); 
-            // header('Location: /view/500.php');
-            // exit;
         }
        }
 }
