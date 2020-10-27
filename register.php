@@ -30,19 +30,19 @@ require_once "inc/config.php";?>
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="username">
+                            <input type="text" class="form-control" id="name" placeholder="username">
                         </div>
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input type="password" class="form-control" placeholder="password">
+                            <input type="password" class="form-control"  id="password" placeholder="password">
                         </div>
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input type="password2" class="form-control" placeholder="Confirm password">
+                            <input type="password" class="form-control" id="password2" placeholder="Confirm password">
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Register" class="btn float-right login_btn">
